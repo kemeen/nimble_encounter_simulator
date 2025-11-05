@@ -2,7 +2,7 @@ from dataclasses import dataclass, field
 from typing import TYPE_CHECKING
 
 from .monster_handler import MonsterHandler
-from ..creature.monster import Monster, MonsterRole
+from ..creature.monster.monster import Monster, MonsterRole
 from .turn import Actor, Turn
 from ..logging_setup import get_named_console_logger
 
